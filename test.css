@@ -18,9 +18,9 @@ justify-content: space-around;
 }
 
 .logo-photo{
-    border: 2px solid red;
-    width: 50px;
-    height: 50px;
+    /* border: 2px solid black; */
+    width: 100px;
+    height: 100px;
 }
 .manus{
     display: flex;
@@ -43,6 +43,9 @@ justify-content: space-around;
 .banner-contener{
    background-image: url("./BKGGN011.JPG") ,
    linear-gradient(45deg,#1b1a1a,#ebe5e5);
+   background-size: cover;
+   background-position:center ;
+   background-repeat: no-repeat;
   
     display: flex;
     justify-content: space-around;
@@ -69,3 +72,78 @@ justify-content: space-around;
         font-size: 18px;
         color: white;
     }
+    .abp{
+
+        height: 400px;
+        width: 300px; ;
+        }
+        .about-contener{
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 5px;
+
+        }
+        .abt{
+
+            font-size: 40px;
+            text-align: center;
+            padding: 20px;
+          
+           
+         } 
+        
+    
+         .lren{
+
+            font-size: 18px;
+            margin: 5px;
+            padding: 5px;
+         }
+
+     
+         
+    .llb{
+        color: white;
+        margin: 5px;
+        padding: 5px;
+    }
+           
+           .butadd{
+background-color: gray;
+
+           }
+           
+           
+   .wd{
+    font-size: 30px;
+    color: white;
+  }
+  .service-provider{
+
+   
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  }
+       
+  .abtm{
+
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    }  
+    .box{
+
+        width: 270px;
+        height: 300px;
+        box-shadow: 5px 5px 15px gray;
+        
+        background-color: black;
+        }
+           
+          .scee{
+            background-color: #302e2e;
+          }

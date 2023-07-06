@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:red;
+}
+.manu-contener{
+display:flex;
+    background-color:aqua ;
+    color:rgb(3, 6, 216);
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+justify-content: space-around;
+    height:100px;
+}
+
+.logo-photo{
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+}
+.manus{
+    display: flex;
+    padding-right: 10px;
+}
+
+.hm{
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.hm:hover{
+    color: red;
+}
+.jus{
+    height: 300px;
+    width:300px;
+}
+.banner-contener{
+   background-image: url("./BKGGN011.JPG") ,
+   linear-gradient(45deg,#1b1a1a,#ebe5e5);
+  
+    display: flex;
+    justify-content: space-around;
+   height: 100vh;
+   border: 2px solid gray;
+   align-items: center;
+}
+.hhh{
+
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    }
+    .butt{
+        background-color: red;
+        background-size:15px;
+        padding: 8px;
+        border-radius: 2px;
+        border: none;
+        color: white;
+    }
+    .pp{
+
+        font-size: 18px;
+        color: white;
+    }
